@@ -1,0 +1,20 @@
+.place__item {
+    display: flex;
+    padding-bottom: 80px;
+}
+
+.place__item:first-child {
+    align-items: flex-end;
+}
+
+@media screen and (max-width: 767px) {
+    .place__item {
+        flex-direction: column;
+        padding-bottom: 32px;
+    }
+
+    .place__item:first-child {
+        align-items: flex-start;
+    }
+
+}
