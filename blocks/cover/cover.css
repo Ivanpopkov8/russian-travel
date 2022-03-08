@@ -1,6 +1,7 @@
 .cover {
     height: 740px;
     position: relative;
+    overflow: hidden;
 
     margin: 12px 0 92px 0;
     box-sizing: border-box;
